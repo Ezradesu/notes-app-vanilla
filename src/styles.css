@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+.jua-regular {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Jua", sans-serif;
+}
+
+.tabs {
+  margin-top: 50px;
+}
+
+.active {
+  margin-top: 50px;
+}
+
+.archived {
+  margin-top: 50px;
+}
+
+.loading-spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top-color: #000;
+  animation: spin 1s ease-in-out infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
